@@ -97,25 +97,28 @@ TODO: fix the color in the li.active }
 }
 
 .btn-cta,
-#newsletter button {
+#newsletter button,
+.course-box button {
+    color: #fff;
     background: #ef1641;
     font-family: Oswald, sans-serif;
     font-size: 24px;
-    line-height: 50px;
     margin: 0;
     border-radius: 0;
     border: none;
-    box-shadow: 0px 2px 5px rgba(1, 1, 1, 0.35);
+    font-weight: 300;
 }
 
 .btn-cta {
     padding: 0 30px;
+    line-height: 50px;
 }
 
 .btn-cta:hover,
 #newsletter button:hover {
     background: #e5dcde;
     color: #00456e;
+    box-shadow: 0px 2px 5px rgba(1, 1, 1, 0.35);
 }
 
 #newsletter .container {
@@ -148,6 +151,7 @@ TODO: fix the color in the li.active }
     padding: 0 30px;
     width: 100%;
     color: #ffffff;
+    line-height: 50px;
 }
 
 #we-train p.h1,
@@ -157,14 +161,6 @@ TODO: fix the color in the li.active }
     margin: 90px auto 75px;
     text-align: center;
 }
-
-
-/*
-#00456e - Dark blue
-#1073af - Light blue
-#dc143c - Crimson
-#ef1641 - Light Crimson
-*/
 
 #we-train p>i {
     font-size: 96px;
@@ -183,6 +179,43 @@ TODO: fix the color in the li.active }
     margin: 0 0 30px;
 }
 
-#we-train .row {
-    margin-bottom:
+#upcoming-courses .course-box {
+    border: 1px solid rgb(229, 220, 222);
+    position: relative;
+}
+
+#upcoming-courses .course-box:hover {
+    box-shadow: 0px 0px 10px 0px rgba(1, 1, 1, 0.25);
+}
+
+#upcoming-courses .course-box p {
+    padding: 0 10px;
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+#upcoming-courses .course-box p.head {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 15px
+}
+
+#upcoming-courses .course-box button {
+    font-size: 18px;
+    line-height: 40px;
+    padding: 0 30px;
+    margin: 10px auto -10px;
+    display: block;
+    z-index: 999;
+    position: relative;
+    box-shadow: 0px 2px 5px rgba(1, 1, 1, 0.35);
+}
+
+#upcoming-courses .course-box button:hover {
+    border-radius: 0;
+    background-color: #00456e;
+    box-shadow: none;
 }
