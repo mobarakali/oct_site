@@ -27,7 +27,7 @@ body {
     background: #ef1641;
     background: #cbbbbe;
     background: #e5dcde;
-    background: #fff;
+    background-color: #ffffff;
 }
 
 #topnav {
@@ -69,6 +69,7 @@ TODO: fix the color in the li.active }
     box-sizing: border-box;
     color: #fff;
     text-align: center;
+    margin-bottom: -70px;
 }
 
 #slider .h1 {
@@ -95,35 +96,93 @@ TODO: fix the color in the li.active }
     font-weight: normal;
 }
 
-.btn-cta {
+.btn-cta,
+#newsletter button {
     background: #ef1641;
     font-family: Oswald, sans-serif;
     font-size: 24px;
     line-height: 50px;
-    padding: 0 30px;
     margin: 0;
     border-radius: 0;
     border: none;
     box-shadow: 0px 2px 5px rgba(1, 1, 1, 0.35);
 }
 
-.btn-cta:hover {
+.btn-cta {
+    padding: 0 30px;
+}
+
+.btn-cta:hover,
+#newsletter button:hover {
     background: #e5dcde;
     color: #00456e;
 }
 
-#newsletter {
+#newsletter .container {
     color: #ffffff;
     font-family: Oswald, sans-serif;
+    background: #1073af;
+    text-align: center;
+    padding: 45px 0;
 }
 
 #newsletter p {
     font-size: 24px;
     line-height: 36px;
     letter-spacing: inherit;
-
+    margin: 0;
+    padding-bottom: 25px;
+    font-weight: 100;
 }
 
-#newsletter p em {
+#newsletter p b {
     font-weight: bold;
+}
+
+#newsletter input {
+    height: 50px;
+    border-radius: 0;
+}
+
+#newsletter button {
+    padding: 0 30px;
+    width: 100%;
+    color: #ffffff;
+}
+
+#we-train p.h1,
+#upcoming-courses p.h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    margin: 90px auto 75px;
+    text-align: center;
+}
+
+
+/*
+#00456e - Dark blue
+#1073af - Light blue
+#dc143c - Crimson
+#ef1641 - Light Crimson
+*/
+
+#we-train p>i {
+    font-size: 96px;
+    color: #00456e;
+}
+
+#we-train p:hover>i {
+    color: #ef1641;
+}
+
+#we-train .row p {
+    text-align: center;
+    background: #e5dcde;
+    padding: 25px;
+    box-sizing: border-box;
+    margin: 0 0 30px;
+}
+
+#we-train .row {
+    margin-bottom:
 }
