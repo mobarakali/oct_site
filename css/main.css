@@ -58,7 +58,7 @@ TODO: fix the color in the li.active }
 
 #slider {
     background-image: url(../images/sliderBg.jpg);
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: top center;
     background-origin: border-box;
     position: relative;
