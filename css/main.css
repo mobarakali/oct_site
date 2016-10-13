@@ -99,6 +99,7 @@ TODO: fix the color in the li.active }
 
 .btn-cta,
 #newsletter button,
+#get-in-touch #address button,
 .course-box button {
     color: #fff;
     background: #ef1641;
@@ -143,12 +144,14 @@ TODO: fix the color in the li.active }
     font-weight: bold;
 }
 
-#newsletter input {
+#newsletter input,
+#get-in-touch #address input {
     height: 50px;
     border-radius: 0;
 }
 
-#newsletter button {
+#newsletter button,
+#get-in-touch #address button {
     padding: 0 30px;
     width: 100%;
     color: #ffffff;
@@ -402,7 +405,7 @@ TODO: fix the color in the li.active }
 }
 
 #ad-trainer {
-    margin: 90px auto 30px;
+    margin: 90px auto 0;
     background: rgba(63, 80, 98, 1);
     background-image: url(../images/become_an_instructor.jpg);
     background-position: right top;
@@ -425,8 +428,39 @@ TODO: fix the color in the li.active }
     margin: 135px auto 40px;
 }
 
-.temp {
-    background: #956;
+#get-in-touch {
+    margin: 0;
+    padding: 0;
+}
+
+#get-in-touch #address {
+    background-color: #1073af;
+    margin: 0 -15px;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+
+#get-in-touch #address p.h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto 60px;
+}
+
+#get-in-touch #map {
+    margin: 0 -15px;
+    padding: 0;
+    min-height: 100%;
+    position: relative;
+}
+
+#get-in-touch #map iframe {
+    display: block;
+    width: 100%;
+    height: 568px;
+    /* TODO: will need to be change upon viewport height*/
 }
 
 
@@ -445,3 +479,7 @@ Fonts **************************
 font-family: 'Raleway', sans-serif;
 font-family: 'Oswald', sans-serif;
 */
+
+.temp {
+    background: rgba(255, 0, 0, .25);
+}
