@@ -61,8 +61,8 @@ TODO: fix the color in the li.active }
     background-attachment: fixed;
     background-position: top center;
     background-origin: border-box;
-    position: relative;
     background-repeat: no-repeat;
+    background-size: cover;
     top: -70px;
     padding-top: 70px;
     height: 750px;
@@ -70,6 +70,7 @@ TODO: fix the color in the li.active }
     color: #fff;
     text-align: center;
     margin-bottom: -70px;
+    position: relative;
 }
 
 #slider .h1 {
@@ -157,7 +158,8 @@ TODO: fix the color in the li.active }
 #we-train .heading,
 #upcoming-courses .heading,
 #all-courses .heading,
-#testimonial .heading {
+#testimonial .heading,
+#instructors .heading {
     margin-top: 90px;
     margin-bottom: 75px;
     text-align: center;
@@ -313,7 +315,8 @@ TODO: fix the color in the li.active }
     font-size: 16px;
 }
 
-#testimonial .box p.social-icon a:link {
+#testimonial .box p.social-icon a:link,
+#instructors p.social-icon a:link {
     color: #00456e;
     display: block;
     border: 1px solid;
@@ -328,10 +331,70 @@ TODO: fix the color in the li.active }
     float: left;
 }
 
-#testimonial .box p.social-icon a:hover {
+#testimonial .box p.social-icon a:hover,
+#instructors p.social-icon a:hover {
     background: #ef1641;
     border: 1px solid #ef1641;
     color: #fff;
+}
+
+#instructors {}
+
+#instructors .outer-box {
+    background: #e5ecf0;
+    padding: 20px;
+    position: relative;
+    clear: both;
+    height: 262px;
+    margin-bottom: 30px;
+}
+
+#instructors .inner-box {
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #1073af;
+    padding-left: 53%;
+    height: 222px;
+    position: relative;
+}
+
+#instructors .image-box {
+    border: 20px solid #1073af;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+}
+
+#instructors .info-box {
+    color: red;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px
+}
+
+#instructors p.name {
+    font-size: 18px;
+    color: #00456e;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#instructors p.value {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: #00456e;
+    margin: 0 auto 0 0;
+}
+
+#instructors p.social-icon {
+    font-size: 16px;
+    float: none;
+    margin-top: 25px;
+}
+
+#instructors p.social-icon a:link {
+    margin-right: 5px;
 }
 
 
