@@ -221,3 +221,13 @@ TODO: fix the color in the li.active }
     background-color: #00456e;
     box-shadow: none;
 }
+
+#ad-career {
+    margin: 90px auto;
+    background: rgba(63, 80, 98, 1);
+    background-image: url(../images/career_guideline.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 480px
+}
