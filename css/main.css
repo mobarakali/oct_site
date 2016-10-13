@@ -154,12 +154,20 @@ TODO: fix the color in the li.active }
     line-height: 50px;
 }
 
+#we-train .heading,
+#upcoming-courses .heading,
+#all-courses .heading {
+    margin-top: 90px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
 #we-train p.h1,
-#upcoming-courses p.h1 {
+#upcoming-courses p.h1,
+#all-courses p.h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
-    margin: 90px auto 75px;
-    text-align: center;
+    margin: 0 auto 10px;
 }
 
 #we-train p>i {
@@ -179,18 +187,21 @@ TODO: fix the color in the li.active }
     margin: 0 0 30px;
 }
 
-#upcoming-courses .course-box {
+#upcoming-courses .course-box,
+#all-courses .course-box {
     border: 1px solid rgb(229, 220, 222);
     position: relative;
     background: rgba(16, 115, 175, .05);
     box-sizing: border-box;
 }
 
-#upcoming-courses .course-box:hover {
+#upcoming-courses .course-box:hover,
+#all-courses .course-box:hover {
     box-shadow: 0px 0px 10px 0px rgba(1, 1, 1, 0.25);
 }
 
-#upcoming-courses .course-box p {
+#upcoming-courses .course-box p,
+#all-courses .course-box p {
     padding: 0 10px;
     font-family: 'Raleway', sans-serif;
     margin: 0;
@@ -198,7 +209,8 @@ TODO: fix the color in the li.active }
     line-height: 18px;
 }
 
-#upcoming-courses .course-box p.head {
+#upcoming-courses .course-box p.head,
+#all-courses .course-box p.head {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
@@ -223,7 +235,7 @@ TODO: fix the color in the li.active }
 }
 
 #ad-career {
-    margin: 90px auto;
+    margin: 90px auto 30px;
     background: rgba(63, 80, 98, 1);
     background-image: url(../images/career_guideline.jpg);
     background-position: right top;
@@ -253,6 +265,6 @@ TODO: fix the color in the li.active }
     margin-bottom: 25px;
 }
 
-
-/*
-*/
+#all-courses .course-box {
+    padding-bottom: 25px;
+}
