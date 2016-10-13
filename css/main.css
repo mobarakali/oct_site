@@ -156,7 +156,8 @@ TODO: fix the color in the li.active }
 
 #we-train .heading,
 #upcoming-courses .heading,
-#all-courses .heading {
+#all-courses .heading,
+#testimonial .heading {
     margin-top: 90px;
     margin-bottom: 75px;
     text-align: center;
@@ -268,3 +269,84 @@ TODO: fix the color in the li.active }
 #all-courses .course-box {
     padding-bottom: 25px;
 }
+
+#testimonial {
+    margin: 75px auto 30px;
+    background: rgba(0, 0, 8, .05);
+    padding-bottom: 75px
+}
+
+#testimonial .box {
+    background-color: rgba(255, 255, 255, .5);
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+#testimonial .box p.info {
+    background: #1073af;
+    padding: 10px 10px 10px 165px;
+    color: #fff;
+    text-align: justify;
+    line-height: 24px;
+}
+
+#testimonial .box .std-img {
+    position: absolute;
+    left: 20px;
+    top: -10px;
+    border: 2px solid #1073af;
+}
+
+#testimonial .box p.std-name {
+    float: left;
+    margin-left: 165px;
+    font-weight: bold;
+    color: #00456e;
+    font-size: 18px;
+    padding-top: 5px
+}
+
+#testimonial .box p.social-icon {
+    float: right;
+    margin-right: 0px;
+    font-size: 16px;
+}
+
+#testimonial .box p.social-icon a:link {
+    color: #00456e;
+    display: block;
+    border: 1px solid;
+    /*border-radius: 50%;*/
+    line-height: 24px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+    padding: 2px;
+    border: 1px solid #00456e;
+    margin-left: 5px;
+    float: left;
+}
+
+#testimonial .box p.social-icon a:hover {
+    background: #ef1641;
+    border: 1px solid #ef1641;
+    color: #fff;
+}
+
+
+/* colors ************************
+#000 - text color
+#00456e - Dark blue
+#1073af - Light blue
+#dc143c - Crimson
+#ef1641 - Light Crimson
+#450e9e - Purple
+#cbbbbe - Deep gray
+#e5dcde - Light gray
+#fff  - white
+
+Fonts **************************
+font-family: 'Raleway', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
